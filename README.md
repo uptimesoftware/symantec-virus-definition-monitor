@@ -7,13 +7,13 @@ See http://uptimesoftware.github.io for more information.
 
 ### Category
 
-{ page.category }}
+plugin
 
 ### Version Compatibility
 
 
   
-    * Symantec Virus Definition Monitor 1.1 - 7.1, 7.0, 6.0, 5.5, 5.4, 5.3.x Windows, 5.3.x Linux/Solaris, 5.3, 5.2
+* Symantec Virus Definition Monitor 1.1 - 7.1, 7.0, 6.0, 5.5, 5.4, 5.3.x Windows, 5.3.x Linux/Solaris, 5.3, 5.2
   
 
 
@@ -55,12 +55,27 @@ Path to Script: cmd.exe /c "cscript.exe /nologo "C:\Program Files\uptime softwar
 
 
 ### Input Variables
-* Script Name - the location of the script on the monitoring station that contains the logic for contacting the agent and returning the output in a useful format to the monitoring station. The default value should work in most cases.* Port - port that the up.time agent is listening on (default 9998)* Password - password that the up.time agent has setup* Virus Definition Directory - the full path location of the XDB files on the agent system that is to be monitored (e.g. C:\Program Files\SAV)
+
+* Script Name - the location of the script on the monitoring station that contains the logic for contacting the agent and returning the output in a useful format to the monitoring station. The default value should work in most cases.
+
+* Port - port that the up.time agent is listening on (default 9998)
+
+* Password - password that the up.time agent has setup
+
+* Virus Definition Directory - the full path location of the XDB files on the agent system that is to be monitored (e.g. C:\Program Files\SAV)
+
 
 ### Output Variables
 
-* Days Since Last Update* Last Update Date
+
+* Days Since Last Update
+
+* Last Update Date
+
 
 ### Languages Used
-* Shell/Batch* VBScript
+
+* Shell/Batch
+
+* VBScript
 

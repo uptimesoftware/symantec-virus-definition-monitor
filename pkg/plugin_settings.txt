@@ -1,8 +1,0 @@
-name=Symantec Virus Definition
-version=1.1
-platforms=windows linux
-description=Monitor when the Symantec Virus Definition was last updated
-requiresAgentScript=true
-restartCore=false
-onUpgradeRemoveFiles=true
-onUpgradeRemoveMonitors=false

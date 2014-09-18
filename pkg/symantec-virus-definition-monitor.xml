@@ -16,7 +16,7 @@
 	<elements>
 		<element name="process_windows" parameter_type="input" data_type="string" gui_basic="1" range_type="0" hidden="true">
 			<control_options> size:40 </control_options>
-			<default_value>/plugins/scripts/MonitorSymantecVirusDefinition/monitor-virus-def-ms.bat</default_value>
+			<default_value>plugins/scripts/MonitorSymantecVirusDefinition/monitor-virus-def-ms.bat</default_value>
 			<short_description>Script Name</short_description>
 			<long_description>Name of the script/binary/process to be executed by up.time </long_description>
 			<validation_rule>
@@ -31,7 +31,7 @@
 		</element>
 		<element name="process_linux" parameter_type="input" data_type="string" gui_basic="1" range_type="0" hidden="true">
 			<control_options> size:40 </control_options>
-			<default_value>/plugins/scripts/MonitorSymantecVirusDefinition/monitor-virus-def-ms.sh</default_value>
+			<default_value>plugins/scripts/MonitorSymantecVirusDefinition/monitor-virus-def-ms.sh</default_value>
 			<short_description>Script Name</short_description>
 			<long_description>Name of the script/binary/process to be executed by up.time </long_description>
 			<validation_rule>

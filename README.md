@@ -14,7 +14,7 @@ plugin
 
   
 * Symantec Virus Definition Monitor 1.1 - 7.1, 7.0, 6.0, 5.5, 5.4, 5.3.x Windows, 5.3.x Linux/Solaris, 5.3, 5.2
-* Symantec Virus Definition Monitor 2.0 - 7.3  
+* Symantec Virus Definition Monitor 2.0 - 7.3,7.4,7.5,7.6 
 
 
 ### Description
@@ -23,7 +23,7 @@ This plugin monitor is designed to monitor Symantec Anti-Virus Virus Definition 
 
 ### Supported Monitoring Stations
 
-7.3, 7.1, 7.0, 6.0, 5.5, 5.4, 5.3.x Windows, 5.3.x Linux/Solaris, 5.3, 5.2
+7.4,7.5,7.67.3, 7.1, 7.0, 6.0, 5.5, 5.4, 5.3.x Windows, 5.3.x Linux/Solaris, 5.3, 5.2
 
 ### Supported Agents
 None; no agent required
